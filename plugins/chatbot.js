@@ -5,7 +5,7 @@ handler.all = async function (m) {
 let chat = global.db.data.chats[m.chat]
 let name = conn.getName(m.sender)
 
-if (/^tetas|pack|pene|coger|culo|$/i.test(m.text) ) { //sem prefixo
+if (/^tetas|pack|pene|coger|culo|sexo$/i.test(m.text) ) { //sem prefixo
     let teks = `
 ${pickRandom([`*Herman@ buscate una vida en vez de estar pidiendo webadas a un simple bot*`, `Por eso no Cachas virgen de mrd`])}
 `.trim()
